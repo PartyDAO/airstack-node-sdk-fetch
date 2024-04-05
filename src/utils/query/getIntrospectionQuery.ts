@@ -7,6 +7,7 @@ import fetch from '../fetch';
 const mismatchedQueryMap = {
   socialfollowingsinput: 'socialfollowinginput',
   socialfollowersinput: 'socialfollowerinput',
+  farcastercastsinput: 'farcastercastinput',
 } as const;
 
 export type SchemaMap = Record<string, IntrospectionType>;
