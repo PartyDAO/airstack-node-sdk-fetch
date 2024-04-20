@@ -2,7 +2,6 @@ import { IntrospectionSchema, IntrospectionType } from 'graphql';
 import { config } from '../../config';
 import { AIRSTACK_ENDPOINT } from '../../constants';
 import { introspectionQuery } from '../../constants/introspectionQuery';
-import fetch from '../fetch';
 
 const mismatchedQueryMap = {
   socialfollowingsinput: 'socialfollowinginput',
